@@ -13,7 +13,6 @@ API_KEY = "RAJBOTSOFC"
 # Start Message — ONLY Spoiler (Black Quote/Expandable)
 FORCE_JOIN_TEXT = (
     "<blockquote expandable>"
-    "ᴊᴏɪɴ ғᴏʀ ᴍᴏʀᴇ ʙᴏᴛ ᴄᴏᴅᴇs ᴀɴᴅ ᴀᴘɪs🔥\n"
     "sᴇɴᴅ ᴀɴʏ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ ᴛᴏ sᴇᴀʀᴄʜ ᴅᴇᴛᴀɪʟs🔥"
     "</blockquote>"
 )
