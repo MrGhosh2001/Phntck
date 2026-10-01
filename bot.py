@@ -8,8 +8,6 @@ BOT_TOKEN = "8866257893:AAFTsQR3byevFzxEQgabW8CXR0HjpmSsSeo"   # 👈 Apna bot t
 API_URL = "http://rajfflivebot.onrender.com/pub/rajfflive/api"
 API_KEY = "RAJBOTSOFC"
 
-JOIN_LINK = "https://t.me/+i0rCt3bv_NxmNmE1"
-DEV_LINK = "https://t.me/+i0rCt3bv_NxmNmE1"
 # ==========================================
 
 # Start Message — ONLY Spoiler (Black Quote/Expandable)
