@@ -4,7 +4,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # ================= CONFIG =================
-BOT_TOKEN = "8866257893:AAFTsQR3byevFzxEQgabW8CXR0HjpmSsSeo"   # 👈 Apna bot token daalei
+BOT_TOKEN = "8866257893:AAFTsQR3byevFzxEQgabW8CXR0HjpmSsSeo"   # 👈 Apna bot token daalein
+API_URL = "https://rupam-api.onrender.com/pub/rupamlive/api"
+API_KEY = "P_h_n_bot"
 
 JOIN_LINK = "https://t.me/Ruprup568"
 DEV_LINK = "https://t.me/Ruprup568"
