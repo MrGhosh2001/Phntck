@@ -8,23 +8,19 @@ BOT_TOKEN = "8866257893:AAFTsQR3byevFzxEQgabW8CXR0HjpmSsSeo"   # 👈 Apna bot t
 API_URL = "http://rajfflivebot.onrender.com/pub/rajfflive/api"
 API_KEY = "RAJBOTSOFC"
 
+JOIN_LINK = "https://t.me/+i0rCt3bv_NxmNmE1"
+DEV_LINK = "https://t.me/+i0rCt3bv_NxmNmE1"
 # ==========================================
 
 # Start Message — ONLY Spoiler (Black Quote/Expandable)
 FORCE_JOIN_TEXT = (
     "<blockquote expandable>"
     "sᴇɴᴅ ᴀɴʏ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ ᴛᴏ sᴇᴀʀᴄʜ ᴅᴇᴛᴀɪʟs🔥"
-    "</blockquote>"
-)
-
+    "</blockquote>
 
 
 # ============ /start COMMAND ============
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text(
-        FORCE_JOIN_TEXT,
-        parse_mode="HTML",
-    
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE): Rupam
 
 
 # ============ MAIN NUMBER HANDLER ============
