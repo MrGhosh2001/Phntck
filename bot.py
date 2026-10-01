@@ -4,9 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # ================= CONFIG =================
-BOT_TOKEN = "8866257893:AAFTsQR3byevFzxEQgabW8CXR0HjpmSsSeo"   # 👈 Apna bot token daalein
-API_URL = "http://rajfflivebot.onrender.com/pub/rajfflive/api"
-API_KEY = "RAJBOTSOFC"
+BOT_TOKEN = "8866257893:AAFTsQR3byevFzxEQgabW8CXR0HjpmSsSeo"   # 👈 Apna bot token daalei
 
 JOIN_LINK = "https://t.me/Ruprup568"
 DEV_LINK = "https://t.me/Ruprup568"
