@@ -8,19 +8,38 @@ BOT_TOKEN = "8866257893:AAFTsQR3byevFzxEQgabW8CXR0HjpmSsSeo"   # 👈 Apna bot t
 API_URL = "http://rajfflivebot.onrender.com/pub/rajfflive/api"
 API_KEY = "RAJBOTSOFC"
 
-JOIN_LINK = "https://t.me/+i0rCt3bv_NxmNmE1"
-DEV_LINK = "https://t.me/+i0rCt3bv_NxmNmE1"
+JOIN_LINK = "https://t.me/Ruprup568"
+DEV_LINK = "https://t.me/Ruprup568"
 # ==========================================
 
 # Start Message — ONLY Spoiler (Black Quote/Expandable)
 FORCE_JOIN_TEXT = (
     "<blockquote expandable>"
+    "ᴊᴏɪɴ ғᴏʀ ᴍᴏʀᴇ ʙᴏᴛ ᴄᴏᴅᴇs ᴀɴᴅ ᴀᴘɪs🔥\n"
     "sᴇɴᴅ ᴀɴʏ ᴘʜᴏɴᴇ ɴᴜᴍʙᴇʀ ᴛᴏ sᴇᴀʀᴄʜ ᴅᴇᴛᴀɪʟs🔥"
-    "</blockquote>
+    "</blockquote>"
+)
+
+
+def get_join_keyboard():
+    return InlineKeyboardMarkup([
+        [InlineKeyboardButton("ᴊᴏɪɴ", url=JOIN_LINK)]
+    ])
+
+
+def get_result_keyboard():
+    return InlineKeyboardMarkup([
+        [InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=DEV_LINK)]
+    ])
 
 
 # ============ /start COMMAND ============
-async def start(update: Update, context: ContextTypes.DEFAULT_TYPE): Rupam
+async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text(
+        FORCE_JOIN_TEXT,
+        parse_mode="HTML",
+        reply_markup=get_join_keyboard()
+    )
 
 
 # ============ MAIN NUMBER HANDLER ============
