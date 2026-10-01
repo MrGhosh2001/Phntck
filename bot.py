@@ -18,25 +18,13 @@ FORCE_JOIN_TEXT = (
 )
 
 
-def get_join_keyboard():
-    return InlineKeyboardMarkup([
-        [InlineKeyboardButton("ᴊᴏɪɴ", url=JOIN_LINK)]
-    ])
-
-
-def get_result_keyboard():
-    return InlineKeyboardMarkup([
-        [InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=DEV_LINK)]
-    ])
-
 
 # ============ /start COMMAND ============
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         FORCE_JOIN_TEXT,
         parse_mode="HTML",
-        reply_markup=get_join_keyboard()
-    )
+    
 
 
 # ============ MAIN NUMBER HANDLER ============
